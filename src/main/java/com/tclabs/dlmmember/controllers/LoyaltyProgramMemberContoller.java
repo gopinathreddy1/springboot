@@ -22,6 +22,7 @@ public class LoyaltyProgramMemberContoller {
 	loyaltyBalance.setId(12);
 	loyaltyBalance.setName("gopi");
 	loyaltyBalance.setName("gopi");
+	loyaltyBalance.setName("gopi");
 	if(loyaltyBalances!=null){
 		return loyaltyBalances;
 	}
