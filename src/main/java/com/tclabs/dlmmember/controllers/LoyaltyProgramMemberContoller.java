@@ -20,6 +20,7 @@ public class LoyaltyProgramMemberContoller {
 		public Mono<LoyaltyBalance> create(@RequestBody LoyaltyBalance loyaltyBalance) throws NullDataException{
 	Mono<LoyaltyBalance> loyaltyBalances= loyaltyMemberServices.create(loyaltyBalance);
 	loyaltyBalance.setId(12);
+	loyaltyBalance.setName("gopi");
 	if(loyaltyBalances!=null){
 		return loyaltyBalances;
 	}
