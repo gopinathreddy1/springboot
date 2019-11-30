@@ -21,6 +21,7 @@ public class LoyaltyProgramMemberContoller {
 	Mono<LoyaltyBalance> loyaltyBalances= loyaltyMemberServices.create(loyaltyBalance);
 	loyaltyBalance.setId(12);
 	loyaltyBalance.setName("gopi");
+	loyaltyBalance.setName("gopi");
 	if(loyaltyBalances!=null){
 		return loyaltyBalances;
 	}
